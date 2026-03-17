@@ -1,0 +1,25 @@
+# Private data (never commit)
+private/
+
+# SQLite
+*.sqlite*
+*.db
+*.db-wal
+*.db-shm
+
+# Temp files
+tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# Config (may contain secrets)
+config.json
